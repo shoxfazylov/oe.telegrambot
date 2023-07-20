@@ -1,0 +1,23 @@
+#global_menu_oe .adm-main-menu-item-icon{
+	height: 48px;
+    background: rgba(0, 0, 0, 0) url(icons/oe/oe.png) no-repeat scroll 21px 12px;
+    opacity: 1;
+}
+
+#global_menu_oe:hover .adm-main-menu-item-icon,
+#global_menu_oe.adm-main-menu-item-active .adm-main-menu-item-icon{
+    background: rgba(0, 0, 0, 0) url(icons/oe/oe_active.png) no-repeat scroll 21px 12px;
+}
+
+#global_menu_oe .adm-main-menu-item-text{
+    font-size: 12px;
+    font-family: monospace;
+	margin-top:-4px;
+}
+
+
+
+.oe_telegrambot_menu_icon{
+    background: url("icons/oe.telegrambot/icon.png") no-repeat center;
+    background-size: 60%;
+}

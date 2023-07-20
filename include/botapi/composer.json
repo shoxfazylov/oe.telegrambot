@@ -1,0 +1,7 @@
+{
+    "require": {
+      "irazasyed/telegram-bot-sdk": "master",
+        "spatie/emoji": "dev-master"
+    },
+	"minimum-stability": "dev"
+}

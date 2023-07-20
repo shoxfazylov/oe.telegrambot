@@ -1,0 +1,38 @@
+.item > div {
+    border: 1px solid #dce7ed;
+    border-radius: 3px;
+    padding: 19px 24px 20px;
+    margin: -1px 0px -1px;
+}
+.item > div * {
+    box-sizing: border-box;
+}
+.item .subtitle {
+    margin: 0px 0px 7px;
+    font-size: 13px;
+    color: #000;
+}
+.item input[type="text"] {
+    height: 33px;
+    box-shadow: none;
+    border-color: #c1d2db !important;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 100%;
+    max-width: 222px;
+	background: #fff;
+    border: 1px solid;
+	border-radius: 4px;
+    color: #000;
+}
+
+.groups_block.block + .groups_block.block > .title {
+    margin-top: 29px;
+}
+
+.title {
+    font-weight: bold;
+    margin: 28px 0px 20px;
+    font-size: 14px;
+    color: #4c6267;
+}
